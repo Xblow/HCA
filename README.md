@@ -2,8 +2,8 @@
 
 ## About
 
-This project was developed in due course of Hack Cambridge 2022 which was dedicated to development in (ESG)[https://www.investopedia.com/terms/e/environmental-social-and-governance-esg-criteria.asp].  
-The hackathon submission is published on (Devpost)[https://devpost.com/software/fakespreader]
+This project was developed in due course of Hack Cambridge 2022 which was dedicated to development in [ESG](https://www.investopedia.com/terms/e/environmental-social-and-governance-esg-criteria.asp).  
+The hackathon submission is published on [Devpost](https://devpost.com/software/fakespreader)
 
 ## Inspiration
 
@@ -37,7 +37,7 @@ While proving that the way to tackle fact-checking, rumour spreading and stance 
 
 ## Try it for yourself!
 
-To test out the suite you need to obtain API keys from (Monkeylearn)[https://monkeylearn.com/] and (NewsAPI)[https://newsapi.org/], since they are used for sentiment analysis and the recent news based on the search query. Once obtained, set environmental variables `APIKEY_MONKEYLEARN` and `APIKEY_NEWSAPI`, and run
+To test out the suite you need to obtain API keys from [Monkeylearn](https://monkeylearn.com/) and [NewsAPI](https://newsapi.org/), since they are used for sentiment analysis and the recent news based on the search query. Once obtained, set environmental variables `APIKEY_MONKEYLEARN` and `APIKEY_NEWSAPI`, and run
 ```
 ./spreader.py -s "<query>"
 ```
