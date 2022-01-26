@@ -6,6 +6,9 @@ import pickle
 import json
 import pandas as pd
 import string, re
+import os
+APIKEY_MONKEYLEARN = os.environ.get('APIKEY_MONKEYLEARN')
+APIKEY_NEWSAPI = os.environ.get('APIKEY_NEWSAPI')
 
 def get_sentiment(phrase: str) -> dict:
     """
